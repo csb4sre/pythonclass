@@ -1,0 +1,6 @@
+Package is collection of modules
+
+There are 2 build tools for python - Wheels and Egg
+
+- A folder should be created for a Package
+- All subfolders should have __init__.py including the Package folder

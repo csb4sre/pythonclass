@@ -1,0 +1,16 @@
+
+
+** when ever you call user defined mods it will create a .pyc file in "_pycache_" folder
+Aliasing:
+import mainmod as m
+
+Calling all the objects from a mods
+import mainmod
+from mainmod import *
+
+Calling main mod like void main() in C
+
+if __name__ == '__main__':
+  sdfasdfasdfsad
+if __name__ == '__mainmod__':
+  swasdflajsd

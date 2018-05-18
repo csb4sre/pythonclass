@@ -1,0 +1,48 @@
+PiP - Package manager which is inbuilt in 3.x
+You can download packages from PyPi (Python Package Index)
+- A Package contains folders and modules
+Conda - Another package manager
+Any installed package will go and sit in "Site-Package-Manager" directory. That way the packages are accessible globally
+
+
+Virtual Environment:
+Environment for your isolated area for python
+virtualenv is a package for Python to create isolated python projects
+- virtualenv should be installed and activated
+
+PiP:
+pip search <package name>
+pip install <package name>
+pip freeze - gives you installed packages on your system and useful while installing packages using requirements.txt
+pip list - gives you installed packages on your system
+
+virtualenv:
+virtualenv sampleprj
+
+Activating virtualenv:
+In Linux/Mac:
+  navigate to bin directory
+  $source ./activate
+
+In Windows: Run command prompt with admin priviliges
+  cd scripts
+  activate
+
+pip freeze
+Create requirements.txt - copy the content from pip freeze command
+
+virtualenv dummyproj
+cd dummyproj\scripts
+activate
+pip install -r requirements.txt
+
+
+Git:
+Git is a VCM - Version Control Management
+
+- Download and Install Git from Git-SCM
+- Create github account
+- run following commands to connect to the github account
+
+git config --global user.name csb4sre
+git config --global user.email csb4sre@gmail.com
