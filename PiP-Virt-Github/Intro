@@ -46,3 +46,13 @@ Git is a VCM - Version Control Management
 
 git config --global user.name csb4sre
 git config --global user.email csb4sre@gmail.com
+
+git clone https://github.com/csb4sre/pythonclass.git
+
+git add .
+
+git commit -m 'Comment'
+
+git push
+
+git pull 
