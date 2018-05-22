@@ -1,5 +1,11 @@
 import calc
-from calc import *
+from calc.add.add import *
+from calc.sub.sub import *
+from calc.mul.mul import *
+from calc.div.div import *
+from calc.fldiv.fldiv import *
+from calc.mod.mod import *
+from calc.expo.expo import *
 
 def ops():
     options = ('0. Exit','1. Addition','2. Subtraction','3. Multiply','4. Division','5. Modulus','6. Floor Division','7. Exponent')
@@ -17,30 +23,38 @@ def ops():
     num2 = int(input("Enter another number: "))
     if inops == 1:
         print(options[inops])
-        print(add.add(num1,num2))
+        print(add(num1,num2))
         ops()
     elif inops == 2:
         print(options[inops])
-        print(sub.sub(num1,num2))
+        print(sub(num1,num2))
         ops()
     elif inops == 3:
         print(options[inops])
-        print(mul.mul(num1,num2))
+        print(mul(num1,num2))
         ops()
     elif inops == 4:
         print(options[inops])
-        print(div.div(num1, num2))
+        print(div(num1, num2))
         ops()
     elif inops == 5:
         print(options[inops])
-        print(mod.mod(num1, num2))
+        print(mod(num1, num2))
         ops()
     elif inops == 6:
         print(options[inops])
-        print(fldiv.fldiv(num1,num2))
+        print(fldiv(num1,num2))
         ops()
     elif inops == 7:
         print(options[inops])
-        print(expo.expo(num1,num2))
+        print(expo(num1,num2))
+        ops()
 
 ops()
+
+
+
+#import add
+#from add.add import *
+
+# print(add(4,5))
