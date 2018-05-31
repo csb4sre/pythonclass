@@ -1,0 +1,42 @@
+Inheritance: 2 types
+  1. Multiple
+  2. Multi-level
+
+
+Super function is used to access the member class variables/methods
+
+__init__, __new__ and __del__ are special built in methods
+
+__init__ is not a constructor and just used for initiation
+__new__ is the special method for constructor
+__del__ is the special method for destructor
+
+Operator Overloading:
+class cls ():
+    sdfjs
+    sdfjsasdf
+
+obj1 = cls()
+obj2 = cls()
+
+obj1+obj2
+
+object.__add__(self,other)
+object.__sub__(self,other)
+object.__mul__(self,other)
+object.__mod__(self,other)
+object.__lshift__(self,other)
+object.__and__(self,other)
+and other numerical operators
+
+# Data Hiding or Encapsulation
+Access modifiers: Public, Private, Protected, Default
+
+a = 1 ---> normal variable/default 
+_a = 1 ---> Protected variable
+__a = 1 ---> Private variable
+
+
+
+
+Decorator is a wrapper function with a name and 

@@ -1,0 +1,10 @@
+Inbuilt function for Files
+open()
+syntax:
+open('filename.extension', 'mode', encoding)
+mode ex:
+r,w,rb,wb,wb+,rb+,r+,w+,a
+encoding ex:
+UTF-8 - default
+UTF-16
+Unicode Text Format
